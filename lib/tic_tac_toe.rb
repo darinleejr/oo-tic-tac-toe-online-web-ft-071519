@@ -4,7 +4,7 @@ class TicTacToe
     WIN_COMBINATIONS
   end
   
-WIN_COMBINATIONS = [1, 2, 3], [4, 5, 6]
+TicTacToe::WIN_COMBINATIONS = [1, 2, 3], [4, 5, 6]
  
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
