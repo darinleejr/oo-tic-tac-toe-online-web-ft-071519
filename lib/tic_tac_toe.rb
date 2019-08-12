@@ -1,10 +1,6 @@
 class TicTacToe
   def initialize(board)
-    @board = board
-  end
-  
-  def board
-    @board
+    @board = [9, " "]
   end
 
 
