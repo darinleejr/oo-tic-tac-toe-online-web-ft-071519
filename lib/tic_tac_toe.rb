@@ -1,10 +1,10 @@
 class TicTacToe
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
+    WIN_COMBINATIONS
   end
   
-  def WIN_COMBINATIONS
-    WIN_COMBINATIONS = [1, 2, 3], [4, 5, 6]
+WIN_COMBINATIONS = [1, 2, 3], [4, 5, 6]
   end
  
   def current_player
